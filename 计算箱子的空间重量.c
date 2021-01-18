@@ -1,4 +1,4 @@
-/*Name:Competes the dimensional weight of boxes
+/*Name:Computes the dimensional weight of boxes
 *Time:2021/1/18
 *Author:Peter 
 */
