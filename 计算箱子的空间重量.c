@@ -1,10 +1,10 @@
-/*Name:计算箱子的重量
+/*Name:Competes the dimensional weight of boxes
 *Time:2021/1/18
 *Author:Peter 
 */
 
 #include<stdio.h>
-#define CUBIC_INCHES_PER_PUOND 194
+#define CUBIC_INCHES_PER_PUOND 194    //The standard of China.
 
 int main(void)
 {
@@ -23,7 +23,7 @@ int main(void)
 		if(height>0&&length>0&&width>0){
 			volumn = height*length*width;
 			weight = (float) (volumn + CUBIC_INCHES_PER_PUOND-1) / CUBIC_INCHES_PER_PUOND; 
-			printf("volumn = %d\nweight = %.2f\n\n",volumn,weight);
+			printf("Dimensional volumn = %d\nweight = %.2f\n\n",volumn,weight);
 		}
 		else{
 			printf("log out\n");
