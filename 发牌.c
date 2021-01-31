@@ -1,3 +1,9 @@
+/*
+*Name:Deal
+*Time:2021/1/31
+*AUthor:Peter Gu
+*/ 
+
 #include<stdio.h>
 #include<time.h>
 #include<stdlib.h>
@@ -9,8 +15,8 @@ int main(void)
 {
 	bool in_hand[CARD_SUITS][CARD_SUITS]={false};
 	int num_cards,suit,rank;
-	const char suits[4]={'c','d','h','s'};
-	const char ranks[13]={'2','3','4','5','6','7','8','9','T','J','Q','K','A'};
+	const char suits[CARD_SUITS]={'c','d','h','s'};
+	const char ranks[CARD_RANKS]={'2','3','4','5','6','7','8','9','T','J','Q','K','A'};
 	
 	printf("Enter number of cards in hand: ");
 	scanf("%d",&num_cards);
