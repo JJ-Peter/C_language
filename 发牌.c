@@ -18,6 +18,8 @@ int main(void)
 	const char suits[CARD_SUITS]={'c','d','h','s'};
 	const char ranks[CARD_RANKS]={'2','3','4','5','6','7','8','9','T','J','Q','K','A'};
 	
+	srand((unsigned) time(NULL)); 
+	
 	printf("Enter number of cards in hand: ");
 	scanf("%d",&num_cards);
 	
